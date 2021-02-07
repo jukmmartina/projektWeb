@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-image: url(../Images/background.jpeg);
+    background-attachment: fixed; /*ne mice se pri skrolanju*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    margin: 20px 50px 20px;
+    padding: 5px;
+    height: 90px;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-image: url(../Images/ezLogo\ -\ Kopie.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain; /*da stane*/
+}
+ header h1 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 2.8125em;
+}
+
+nav {
+    margin: 20px 50px 20px;
+    padding: 5px;
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block; /*horizontalno pokazivanje*/
+    margin-right: 60px;
+    width:400px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5em; /* 1.5*16 */
+    line-height: 2.916em; /* 70/(1.5*16) */
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+
+main {
+    margin: 20px 50px 20px;
+}
+main article, aside {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+main aside {
+    width: 200px;
+    padding: 5px;
+    position: fixed;
+    margin-left: 1620px;
+    left: 20px;
+}
+main a:hover aside{
+    background-color: black;
+}
+main aside.prvi {
+    text-align: center;
+    height: 62px;
+}
+main aside.drugi {
+    top: 292px;
+    margin-top: 20px;
+}
+main a{
+    color: white;
+    text-decoration: none;
+}
+main article {
+    width: 1570px;
+    padding: 5px;
+    float: left;
+    margin-bottom: 20px;
+}
+main article p, h2{
+    width: 100%;
+}
+main article section.pic{
+    text-align: center;
+}
+main article img{
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 20px 50px 20px;
+    padding: 5px;
+    height: 70px;
+    width: 94%;
+}
+footer ul {
+    display: flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+    list-style-type: none;
+}
+footer ul li {
+    flex: 1;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+footer ul li a {
+    height: auto;
+    width: auto;
+}
+footer ul li a img {
+    height: 70px;
+    width: 70px;
+}
+footer ul li:nth-child(2) img {
+    width: 100px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event2</title>
+    <link rel="stylesheet" href="../Styles/event2.css">
+</head>
+<body>
+<header>
+    <h1>Enduro Žepče</h1>
+ </header>
+ <nav>
+    <ul>
+        <li><a href="home.html">Početna</a></li>
+        <li><a href="events.html">Događaji</a></li>
+        <li><a href="contact.html">Kontakt</a> </li>
+    </ul>
+ </nav>
+ <main>
+ <article>
+    <h2>2.Enduro druženje - Žepče</h2><br>
+    <p>Nakon uspješnog prvog druženja odlučili smo se organizirati još jedno, ali ovo bolje i kvalitetnije. Da bi sve prošlo u najboljem redu i da nam ne fali ni hrane ni voditelja, 
+        zamolit ćemo Vas da ispunite obrazac za prijavu. </p>
+    <p>Class: expert i hobby</p>
+    <p>Kotizacija: 10KM</p><br>
+    <form name="obrazac" action="http://localhost" method="POST">
+        <fieldset>
+            <legend>Prijava</legend><br>
+        <label> Ime:   </label>
+            <input type="text" name="name" id="name" required><br><br><br>
+         <label> Prezime:   </label>
+             <input type="text" name="surname" id="surname" required><br><br><br>
+          <label> Class:   </label>
+             <select name="class" id="class" required>
+                 <option value="hobby" selected>Hobby</option>
+                 <option value="expert">Expert</option>
+            </select><br><br><br>
+          <label> Moto klub:   </label>
+             <input type="text" name="club" id="club" required><br><br><br>
+          <input type="submit" name="prijavi" id="prijavi" value="Prijavi"/>
+          <br><br>
+        </fieldset>
+    </form>
+ </article>
+ <a href="event2.html"><aside class="prvi">
+    <h2>PRIJAVA</h2>
+    <p>Prijavite se na 2.Enduro druženje - Žepče</p>
+ </aside></a>
+ <a href="contact.html"><aside class="drugi">
+    <h2>Kontakt</h2><br>
+    <h3>Marino Ravnjak</h3>
+        <p>+49 172 825 8604</p><br>
+    <h3>Josip Spajić</h3>
+        <p>+387 63 644 939</p><br>
+    <h3>Mateo Ramljak</h3>
+        <p>+387 63 958 532</p><br>
+    <h3>Nikola Antolović</h3>
+        <p>+387 63 979 220</p><br>
+    <h3>Mihael Trogrlić</h3>
+        <p>+387 63 979 220</p><br>
+    <h3>Boro Augustinović</h3>
+        <p>+387 63 979 220</p><br>
+    <h3>Petar Galić</h3>
+        <p>+387 63 979 220</p>
+ </aside></a>
+ 
+ </main>
+ <footer>
+     <ul>
+         <li>
+            <a href="https://www.instagram.com/enduro.zepce/">
+            <img src="../Images/instLogo.png" alt="Instagram"></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/channel/UC_MxzgkUhNkXd4prYuHm1Fg">
+            <img src="../Images/ytLogo.png" alt="YouTube"></a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/mkenduro1324/">
+            <img src="../Images/fbLogo.jpg" alt="Facebook"></a>
+        </li>
+    </ul>
+ </footer>
+</body>
